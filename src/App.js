@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import './scss/main.scss';
+import LandingPage from './components/LandingPage';
+
+const CounterContext = React.createContext();
 
 function App() {
+
+  const [littleCounter, setLittleCounter] = useState(true);
+
+  const toggleCounter = () => {
+    setLittleCounter(prevLittleCounter =>!prevLittleCounter);
+    console.log(littleCounter);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CounterContext.Provider>
+        <LandingPage/>
+      </CounterContext.Provider>
+    </>
   );
 }
 
