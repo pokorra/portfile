@@ -1,15 +1,30 @@
-import React from 'react';
-import Title from './Title';
-import Menu from './Menu';
+import React, {useState, useEffect} from 'react';
+import Typist from 'react-typist';
+
 
 const Header = () => {
-
+    const [count, setCount] = useState(1);
+    useEffect(()=> {
+        setCount(1);
+    }, [count]);
+    
     return (
-        <header className='header'>
-            <Title/>
-            <Menu/>
-        </header>
-    );
+        <div className='hello'>
+                <h2>Hello, world!</h2>
+            <h1>
+                { count ? (
+                    <Typist avgTypingDelay={100} onTypingDone={()=> setCount(0)} >
+                    <span>Hi, my name is Patrycja,</span>
+                    <Typist.Backspace count={24} delay={1500} />
+                    <span>I am junior front-end developer </span>
+                    <Typist.Backspace count={32} delay={1500}/>
+                </Typist>
+                ) : ("")}
+                
+            </h1>
+        </div>
+        
+    )
 }
 
 export default Header;
