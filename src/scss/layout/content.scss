@@ -4,6 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     @include step-setting;
+    min-height: 9vh;
 }
 .more {
     flex-wrap: wrap;
@@ -12,5 +13,10 @@
 .content-item {
     padding: 5px;
     margin-bottom: 5px;
-    flex-shrink: 1;
+    transition: .4s;
+}
+
+.content-item:hover {
+    cursor: pointer;
+    opacity: .5;
 }
