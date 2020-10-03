@@ -1,0 +1,16 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include step-setting;
+}
+.more {
+    flex-wrap: wrap;
+}
+
+.content-item {
+    padding: 5px;
+    margin-bottom: 5px;
+    flex-shrink: 1;
+}

@@ -1,0 +1,9 @@
+.title {
+    @include step-setting;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: whitesmoke; 
+    letter-spacing: 3px;
+    color: black; 
+}
