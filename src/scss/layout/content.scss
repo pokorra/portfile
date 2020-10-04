@@ -13,10 +13,17 @@
 .content-item {
     padding: 5px;
     margin-bottom: 5px;
-    transition: .4s;
+    transition: .6s;
 }
 
 .content-item:hover {
     cursor: pointer;
     opacity: .5;
+}
+
+.content-item-clicked {
+    opacity: .3;
+}
+.content-item-clicked:hover {
+    opacity: .3;
 }
