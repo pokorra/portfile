@@ -1,7 +1,32 @@
-@media only screen and (max-width: 750px) {
-    .hello > h1 {
-        font-size: 28px;
+// @media only screen and (max-width: 750px) {
+@media only screen and (max-width: 650px) {    
+    * {
+        font-size: 25px;
+    }
+    .hello {
         min-height: 22vh;
+        h1 {
+            font-size: 32px;   
+        }
+    } 
+
+    .title {
+        font-size: 25px;
     }
 
+    .wrap {
+        overflow-wrap: break-word;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    * {
+        font-size: 20px;
+    }
+    .hello {
+        min-height: 18vh;
+        h1 {
+            font-size: 28px;   
+        }
+    } 
 }

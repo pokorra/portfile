@@ -1,36 +1,33 @@
-import React, {useState} from 'react';
+import React from 'react';
+// import {Link } from 'react-scroll';
 
 const ContentItem = (props) => {
-    const width = props.width;
-    const color = props.color;
-    const text = props.text;
-    const font = props.font;
-
     const setVisible = props.setVisible;
     const isVisible = props.isVisible;
-
-
-    const [item, setItem] = useState(false);
+    const number = props.number;
+    const setDetailContent = props.setDetailContent;
 
     const unRoll = () => {
+        
         if (!isVisible) {
             setVisible(true);
         }
-        if (!item) {
-            setItem(0)
-        }
-        
-        console.log(isVisible, item)
+        setDetailContent(number);
     }
     
     return (
-        <div
-            onClick={unRoll}      
-            // className={`content-item ${item===0 ? 'content-item-clicked' : ''}`}
+        
+             <div
+            onClick={unRoll}
             className='content-item'
-            style={{width: width, backgroundColor: color, color: font}}> 
-            {text}
+            style={{width: props.width, backgroundColor: props.color, color: props.font}}> 
+            {/* <Link to={props.id} smooth={true} duration={200}> */}
+                 {props.text}
+            {/* </Link> */}
+           
         </div>
+      
+       
     )
 }
 
