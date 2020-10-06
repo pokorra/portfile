@@ -24,12 +24,11 @@
     background-color: black;
     color: white;
     display: inherit;
+    svg {
+        margin-right: 10px;
+    }
 }
 .arrow:hover {
-    // font-weight: bold;
     cursor: pointer;
 }
 
-// .detail1 {
-//     color: black;
-// }
