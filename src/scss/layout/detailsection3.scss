@@ -1,0 +1,65 @@
+.detail3 {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    align-items: center;
+
+    img {
+        margin: 5px;
+        width: 45%;
+        border: 2px solid black;
+    }
+    .description {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin: 10px;
+        h3 {
+            font-size: 25px;
+            margin: 10;
+        }
+        div {
+            
+            padding-right: 20px;
+            text-align: justify;
+        }
+        .techno-list {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 15px 0;
+            padding: 0;
+            // list-style-type: disc;
+            // overflow: hidden;
+            // border: 1px solid red;
+            .techno-item {
+                margin-right: 10px;
+                // border: 1px dotted grey;
+                display: inline-block;   
+            }
+            .techno-item::before {
+                content: '☛';
+            }
+            p {
+                margin:0;
+                padding: 0;
+               
+            }
+            
+        }
+        
+    }
+
+}
+
+
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+}
