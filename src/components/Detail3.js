@@ -10,6 +10,10 @@ const Detail3 = (props) => {
     const i = props.detailContent;
     const data = projects[i];
 
+    const displayPicture =()=> {
+        
+    }
+
     // if (data.tech > 0) {
     //     data.tech.map(technology)
     // }
@@ -18,7 +22,7 @@ const Detail3 = (props) => {
         <div className={`detail ${props.isVisible ? 'unroll' : ''}`}>
             <RollButton btn={props.btn} roll={roll}/> 
             <div className='detail3'>
-                <img src={data.photo} alt={data.name}></img>
+                <img src={data.photo} alt={data.name} onClick={displayPicture}></img>
                 <div className='description'>
                     <h3>{data.name}</h3>
                     <div>{data.desc}</div>
