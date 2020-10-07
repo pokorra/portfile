@@ -3,12 +3,22 @@
     width: 90%;
     margin: 20px auto;
     align-items: center;
+    
 
     img {
         margin: 5px;
         width: 45%;
         border: 2px solid black;
         cursor: pointer;
+        
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .2);
+            position: absolute;
+            width: 70%;
+            transition: .3s;
+            
+        }
     }
     .description {
         width: 55%;

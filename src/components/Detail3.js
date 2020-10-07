@@ -11,12 +11,9 @@ const Detail3 = (props) => {
     const data = projects[i];
 
     const displayPicture =()=> {
-        
+
     }
 
-    // if (data.tech > 0) {
-    //     data.tech.map(technology)
-    // }
 
     return (
         <div className={`detail ${props.isVisible ? 'unroll' : ''}`}>
