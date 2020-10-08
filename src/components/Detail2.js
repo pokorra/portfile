@@ -11,7 +11,6 @@ const Detail2 = (props) => {
         props.setVisible(false);
         props.setBtn(false);
         }
-
     const i = props.detailContent;
     const skill = skills[i];
     const skillList = skill.list;

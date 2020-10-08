@@ -9,7 +9,7 @@ const Header = () => {
     }, [count]);
     
     return (
-        <div className='hello'>
+        <div className='hello' id='hello'>
                 <h2>Hello, world!</h2>
             <h1>
                 { count ? (

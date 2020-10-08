@@ -23,7 +23,7 @@ const ContactItem = (props) => {
 
 
 const Content4 = () => {
-    const git = `click ${<a href='https://github.com/pokorra'> here</a>}`
+    // const git = `click ${<a href='https://github.com/pokorra'> here</a>}`
     return (
         <div className="content">
             <ContactItem 

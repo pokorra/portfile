@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Link } from 'react-scroll';
+import {Link } from 'react-scroll';
 
 const ContentItem = (props) => {
     const setVisible = props.setVisible;
@@ -13,19 +13,20 @@ const ContentItem = (props) => {
             setVisible(true);
         }
         setDetailContent(number);
+        // <Link to={props.id} smooth={true} duration={200}></Link>
     }
     
     return (
-        
-             <div
-            onClick={unRoll}
+       <Link to={props.id} smooth={true} duration={200}
             className='content-item'
-            style={{width: props.width, backgroundColor: props.color, color: props.font}}> 
-            {/* <Link to={props.id} smooth={true} duration={200}> */}
-                 {props.text}
-            {/* </Link> */}
+            style={{width: props.width, backgroundColor: props.color, color: props.font}}>
+            <div onClick={unRoll}>
+                    {props.text}
+            
+            </div>
+        </Link>
+        
            
-        </div>
       
        
     )
