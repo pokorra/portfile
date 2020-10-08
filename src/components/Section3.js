@@ -10,7 +10,7 @@ const Section3 = () => {
     // const [text, setText] = useState('');
 
     return (
-        <div className='section'>
+        <div className='section' id='sec3'>
             <Title title="3) projects i made" id='title3'/>
             <Content3
                 isVisible={isVisible} setVisible={setVisible}

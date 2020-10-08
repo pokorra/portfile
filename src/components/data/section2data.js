@@ -70,7 +70,7 @@ const skills = [
             desc: "I have an analytical mind, so I have always been pretty good in problem solving. Since I would rather to be in control of my responsibilities, I always do a research and try to prepare as good as possible to solve an issue without causing problems."
             }
             ],
-        class: "softSkills"
+        class: "slider-prov"
 
     }
 ]

@@ -11,7 +11,7 @@ const Section1 = () => {
     
 
     return (
-        <div className='section'>
+        <div className='section' id='sec1'>
             <Title title='1) few things about me' id='title1'/>
             <Content1 
                 isVisible={isVisible} setVisible={setVisible}

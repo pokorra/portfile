@@ -34,6 +34,43 @@
 }
 
 //soft skills section
-.softSkills {
 
+.slider-prov {
+    // border: 1px solid green;
+    margin: 20px 20px 40px;
+    width: 40vw;
+    h3 {
+        font-size: 25px;
+    }
+}
+
+.slider-buts {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+    &:hover {
+        opacity: .7
+    }
+}
+.doters {
+    display: flex;
+    justify-content: center;
+    color: black;
+    height: 20px;
+    padding: 5px;
+}
+.little-dot {
+    margin: 0 10px;
+    font-size: 30px;
+    &:hover {
+        opacity: .7;
+    }
+}
+.dot-desc {
+    font-size: 18px;
+    text-align: justify;
 }

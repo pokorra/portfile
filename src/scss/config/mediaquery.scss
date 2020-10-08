@@ -1,4 +1,14 @@
 @media only screen and (max-width: 790px) {
+    //section 2 soft-skills:
+    .slider-prov {
+        // border: 1px solid green;
+        margin: 20px 20px 40px;
+        width: 55vw;
+    }
+    .dot-desc {
+        font-size: 13px;
+    }
+
      //section 3 details:
      .detail3 {
         flex-direction: column;
@@ -32,14 +42,21 @@
         overflow-wrap: break-word;
     }
     //section 2 technologies:
-    // .technologies h3 {
-    //     font-size: 30px;
-    // }
     .tech-item {
         p {
             font-size: 15px;
         }
     }
+    
+    .slider-prov {
+        width: 70vw;
+        h3, h2 {
+            font-size: 20px;
+        }
+    }
+    .fa-chevron-left,
+    .fa-chevron-right {
+    font-size: 30px; }
 
     //section 3 letter-sizing:
     .description {
@@ -65,4 +82,5 @@
             font-size: 28px;   
         }
     }
+    
 }
