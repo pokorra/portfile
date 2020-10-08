@@ -19,9 +19,9 @@ const Detail2 = (props) => {
             <div className={skill.class}> 
                 <h3>{skill.title}</h3>
                 {skill.class==='technologies' ? (
-                     <ul> {skillList.map( item => (
-                        <li key={item.name}>                           
-                            <img src={item.pic} alt={item.name}></img>
+                     <ul className='tech-list'> {skillList.map( item => (
+                        <li className='tech-item'key={item.name}> 
+                           <img  src={item.pic} alt={item.name}></img>
                             <p>{item.name}</p>
                         </li>
                     ))}
@@ -29,7 +29,7 @@ const Detail2 = (props) => {
                     </ul>) : (
                         <ul>
                             {skillList.map(item =>(
-                                <li key={item}>{item}</li>
+                                <li key={item.name}>{item.name}</li>
                             ))}    
                         </ul>
                     )

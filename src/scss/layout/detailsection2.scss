@@ -1,0 +1,39 @@
+//cały container, wraz z h3 w środku
+.technologies {
+    width: 70%;
+    h3 {
+        font-size: 25px;
+    }
+    .tech-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        // border: 2px solid black;
+        // border-radius: 15px;
+    }
+    
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    min-width: 120px;
+    padding: 5px;
+    margin: 10px;
+
+    p {
+        bottom: 20px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+//soft skills section
+.softSkills {
+
+}
