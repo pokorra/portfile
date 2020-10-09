@@ -1,0 +1,44 @@
+.about-pp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.photo-me {
+    // box-sizing: content-box;
+    background-color: grey;
+    background-image: url(../pics/pflj.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    // border: 3px dotted black;
+    
+}
+.photo-op {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(../pics/pflm.jpg);
+    background-size: cover;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+        opacity: 0;
+    }
+}
+
+
+.desc-me {
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+}

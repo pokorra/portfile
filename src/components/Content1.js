@@ -10,12 +10,12 @@ const Content1 = (props) => {
             <ContentItem 
                 text="who am I" color="#ff5757" width="54%" font="white"
                 setVisible={props.setVisible} isVisible={props.isVisible}
-                setDetailContent={props.setDetailContent} number="1" id={id}
+                setDetailContent={props.setDetailContent} number="0" id={id}
                 />
             <ContentItem 
                 text="my work experiences" color="#ccccce" width="45%" font="black"
                 setVisible={props.setVisible} isVisible={props.isVisible}
-                setDetailContent={props.setDetailContent} number="2" id={id}
+                setDetailContent={props.setDetailContent} number="1" id={id}
                 />
         </div>
     )

@@ -2,7 +2,7 @@ const aboutPP = [
     {
         name: 'about',
         content: `My name is Patrycja Pokora and I'm looking for my first job as a Front-end dev. Some time ago I have decided to learn new technologies and join IT industry. Last autumn I signed up to IT school Coders Lab and graduated Front-end React course. Now I am really excited: I feel I already learned a lot, but it is clear for me I need to keep improving my skills.`,
-        about: `I'm bright person with open mind and ability to learn very quickly. I don't mind working a lot as long as it affects the development of my skills. I'm capable to work under pressure. Flexible, self-motivated with positive attitude.`
+        about: `I'm bright person with open mind and ability to learn very quickly. I don't mind working a lot as long as it affects the development of my skills. I'm self-motivated and capable to work under pressure. Also, I do have a positive attitude.`
     },
     {
         name: 'works',
@@ -22,7 +22,8 @@ const aboutPP = [
             date: '2015-2018',
             desc: 'At first I worked in Foreign Polonica Department but after some time I became head of a team responsible for cataloguing children`s literature.'
         }],
-        
+        git: 'Here you can see my github repositories including the one containing this project',
+        gitadd: 'https://github.com/pokorra'
     } 
  
 ];

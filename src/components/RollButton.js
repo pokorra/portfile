@@ -7,7 +7,7 @@ const RollButton = (props)=> {
     const element = <FontAwesomeIcon icon = {faArrowUp} />
     const roll = props.roll;
     return (
-        <Link onClick={roll} to='hello' smooth={true} duration={100}
+        <Link onClick={roll} to='hello' duration={100}
              className={`arrow ${props.btn ? '' : 'hidden'}`}
              
         > 

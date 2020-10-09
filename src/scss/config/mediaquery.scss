@@ -1,4 +1,13 @@
 @media only screen and (max-width: 790px) {
+    //section1 about me:
+    .photo-me {
+        width: 30vw;
+        height: 30vw;
+    }
+    .desc-me {
+        font-size: 16px;
+    }
+
     //section 2 soft-skills:
     .slider-prov {
         // border: 1px solid green;
@@ -27,6 +36,7 @@
     * {
         font-size: 25px;
     }
+
     .hello {
         min-height: 22vh;
         h1 {
@@ -37,10 +47,22 @@
     .title {
         font-size: 25px;
     }
-
-    .wrap {
-        overflow-wrap: break-word;
+    //section1 about me:
+    .about-pp {
+        flex-direction: column;
     }
+    .photo-me {
+        width: 40vw;
+        height: 40vw;
+    }
+    .desc-me {
+        width: 70%; 
+        p {
+            font-size: 16px;
+        }
+    }
+
+    
     //section 2 technologies:
     .tech-item {
         p {
@@ -68,7 +90,10 @@
         }
         // font-weight: bold;
     }
-   
+   //section 4
+   .wrap {
+    overflow-wrap: break-word;
+}
 
 }
 //smaller size:
@@ -82,5 +107,9 @@
             font-size: 28px;   
         }
     }
-    
+    .desc-me {
+        p {
+            font-size: 14px;
+        }
+    }
 }
