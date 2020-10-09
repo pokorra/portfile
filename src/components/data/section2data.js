@@ -51,15 +51,15 @@ const skills = [
         title: "My work-useful soft skills:",
         list: [ {
             name: "Good learning skills",
-            desc: "I like to learn new things and, luckily, I am bright enough to do it. I believe willingness to develop yourself is the thing that keeps you in intellectual shape."
+            desc: "I like to learn new things and, luckily, I am bright enough to do it. I believe willingness to develop yourself is the thing that keeps you in intellectual shape, and being in good intellectual shape is kind of my life goal."
             },
             {
             name: "Being a teamworker",
-            desc: "I value working in a team when everyone has their own tasks, but we have one common goal. This is why I really value agile methodologies - I participated in Scrum once and I could see how efficient it was. In this kind of situation you can learn and teach at the same time and everyone brings something."
+            desc: "I value working in a team when everyone has their own tasks, but we have one common goal. This is why I am fond of agile methodologies - I participated in Scrum sprint once and I could see how efficient it was. In this kind of situation you can learn and teach at the same time and everyone brings something."
             },
             { 
             name: "Highly developed communication skills",
-            desc: "I am good with both expressing myself and listening, you can say I am doing well with nonverbal communication as well."
+            desc: "I am good with both expressing myself and listening, so communicating with others has never be a problem for me. Also, I am doing well with nonverbal communication."
             },
             {
             name: "Emotional intelligence",
@@ -67,7 +67,7 @@ const skills = [
             },
             {
             name: "Critical thinking",
-            desc: "I have an analytical mind, so I have always been pretty good in problem solving. Since I would rather to be in control of my responsibilities, I always do a research and try to prepare as good as possible to solve an issue without causing problems."
+            desc: "I have an analytical mind, so I have always been pretty good in problem solving. Since I like to have my responsibilities under control, I always do a research and try to be prepared as good as possible for anything I am going to do."
             }
             ],
         class: "slider-prov"

@@ -23,7 +23,7 @@ const projects = [
     },
     {
         name: "Start Helping",
-        desc: "here I made a connection with react router api. Also, ",
+        desc: "Here I made a connection with react router api. Also, ",
         tech: ["React with addictional libraries", "Sass"],
         code: "https://github.com/pokorra/start-helping",
         view: "https://pokorra.github.io/start-helping/",

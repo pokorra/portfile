@@ -11,9 +11,9 @@
 }
 
 .content-item {
-    padding: 5px;
     margin-bottom: 5px;
     transition: .6s;
+    font-size: 30px;
 }
 
 .content-item:hover {
@@ -21,9 +21,8 @@
     opacity: .5;
 }
 
-.content-item-clicked {
-    opacity: .3;
-}
-.content-item-clicked:hover {
-    opacity: .3;
+.content-inner-div {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
 }
