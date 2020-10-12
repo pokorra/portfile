@@ -1,8 +1,8 @@
 const aboutPP = [
     {
         name: 'about',
-        content: `My name is Patrycja Pokora and I'm looking for my first job as a Front-end dev. Some time ago I have decided to learn new technologies and join IT industry. Last autumn I signed up to IT school Coders Lab and graduated Front-end React course. Now I am really excited: I feel how much I have already learned, but it is clear for me I need to keep improving my skills.`,
-        about: `I'm bright person with open mind and I'm abile to learn very quickly. I don't mind working a lot as long as it affects the development of my skills. I'm self-motivated and capable to work under pressure. Also, I do have a positive attitude.`
+        content: `My name is Patrycja Pokora and I'm looking for my first job as a Front-end dev. Some time ago I have decided to learn new technologies and join IT industry. That's why I completed Front-end React course at the Coders Lab IT school. Now I'm really excited: I feel how much I have already learned, but it is clear to me I need to keep improving my skills.`,
+        about: `I'm a bright person with an open mind, able to learn very quickly. I don't mind working hard as long as it helps to develop my skills. I'm self-motivated and capable to work under pressure. Also, I do have a positive attitude.`
     },
     {
         name: 'works',

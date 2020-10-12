@@ -51,7 +51,7 @@ const skills = [
         title: "My work-useful soft skills:",
         list: [ {
             name: "Good learning skills",
-            desc: "I like to learn new things and, luckily, I am bright enough to do it. I believe willingness to develop yourself is the thing that keeps you in intellectual shape, and being in good intellectual shape is kind of my life goal."
+            desc: "I like to learn new things and, luckily, I am capable of doing so quickly. I believe being ready and eager to grow and develop is what keeps you in intellectual shape, and being in good intellectual shape is kind of my life goal."
             },
             {
             name: "Being a teamworker",
