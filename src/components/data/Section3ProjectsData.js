@@ -39,7 +39,7 @@ const projects = [
     },
     {
         name: "Best Shop",
-        desc: "The project started with pure HTML and CSS",
+        desc: "At the beginning there were only pure HTML and CSS, but after that I have decided to make it mobile responsive, so I changed CSS over to Sass and added one simple thing in JS",
         tech: ["Sass", "Gulp", "RWD", "HTML"],
         code: "https://github.com/pokorra/best-shop",
         view: "https://pokorra.github.io/best-shop/",
