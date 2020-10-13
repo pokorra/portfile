@@ -40,7 +40,7 @@ const projects = [
     {
         name: "Best Shop",
         desc: "The project started with pure HTML and CSS",
-        tech: ["CSS", "HTML"],
+        tech: ["Sass", "Gulp", "RWD", "HTML"],
         code: "https://github.com/pokorra/best-shop",
         view: "https://pokorra.github.io/best-shop/",
         photo: bestShopPhoto
