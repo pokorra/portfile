@@ -23,7 +23,7 @@ const projects = [
     },
     {
         name: "Start Helping",
-        desc: "Here I made a connection with react router api. Also, ",
+        desc: "This is a simply landing page made in React with some additions. Also, base of the institutions is downloaded from Realtime Firebase.",
         tech: ["React with addictional libraries", "Sass"],
         code: "https://github.com/pokorra/start-helping",
         view: "https://pokorra.github.io/start-helping/",
