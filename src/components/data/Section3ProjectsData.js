@@ -23,8 +23,8 @@ const projects = [
     },
     {
         name: "Start Helping",
-        desc: "This is a simply landing page made in React with some additions. Also, base of the institutions is downloaded from Realtime Firebase.",
-        tech: ["React with addictional libraries", "Sass"],
+        desc: "This is a simply landing page made in React with some addictional node packages. Also, to be able to deploy this site online, I have uploaded a base of institutions to the Json-server online at my-json-server.typicode.com.",
+        tech: ["React", "Sass"],
         code: "https://github.com/pokorra/start-helping",
         view: "https://pokorra.github.io/start-helping/",
         photo: startHelpingPhoto
