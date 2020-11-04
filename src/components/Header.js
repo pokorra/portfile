@@ -10,13 +10,13 @@ const Header = () => {
     
     return (
         <div className='hello' id='hello'>
-                <h2>Hello, world!</h2>
+                <h2 className='hello-wrld'>Hello, world!</h2>
             <h1>
                 { count ? (
                     <Typist avgTypingDelay={100} onTypingDone={()=> setCount(0)} >
                     <span>Hi, my name is Patrycja,</span>
                     <Typist.Backspace count={24} delay={1500} />
-                    <span>I am a junior front-end developer </span>
+                    <span>I am a junior front-end developer</span>
                     <Typist.Backspace count={32} delay={1500}/>
                 </Typist>
                 ) : ("")}

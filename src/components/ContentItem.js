@@ -20,8 +20,8 @@ const ContentItem = (props) => {
        <Link to={props.id} smooth={true} duration={200}
             className='content-item'
             style={{width: props.width, backgroundColor: props.color, color: props.font}}>
-            <div className='content-inner-div' onClick={unRoll}>
-                    {props.text}
+            <div className='content-inner-div' onClick={unRoll}> {props.text}
+                    {/* <p className='content-item-par'> {props.text}</p> */}
             
             </div>
         </Link>

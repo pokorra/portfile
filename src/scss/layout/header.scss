@@ -1,7 +1,21 @@
 .header {
     padding: 20px;
+    //testing some:
+ 
+    align-items: center;
+    border: 3px solid red;
 }
 
 .hello {
     min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.hello-wrld {
+    position: absolute;
+    top: 0;
+    margin: 0;
 }

@@ -16,7 +16,7 @@ const ContactItem = (props) => {
         <div onClick={toggle} className="content-item wrap"
             style={{width: props.width, backgroundColor: props.color, color: props.font}}
         >
-            {contactData}
+           <p className='contact-data'>{contactData} </p> 
         </div>
     )
 };
