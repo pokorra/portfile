@@ -2,18 +2,18 @@ import React from 'react';
 import RollButton from './RollButton';
 import projects from './data/Section3ProjectsData';
 
-const Detail3 = (props) => {
+const Detail3 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
     const roll =() => {
-        props.setVisible(false);
-        props.setBtn(false);
+        setVisible(false);
+        setBtn(false);
     }
-    const i = props.detailContent;
+    const i = detailContent;
     const data = projects[i];
 
 
     return (
-        <div className={`detail ${props.isVisible ? 'unroll' : ''}`}>
-            <RollButton btn={props.btn} roll={roll} /> 
+        <div className={`detail ${isVisible ? 'unroll' : ''}`}>
+            <RollButton btn={btn} roll={roll} /> 
             <div className='detail3'>
                 <img src={data.photo} alt={data.name} ></img>
                 <div className='description'>

@@ -55,7 +55,7 @@ const skills = [
             },
             {
             name: "Being a teamworker",
-            desc: "I value working in a team when everyone has their own tasks, but we have one common goal. This is why I am fond of agile methodologies - I participated in Scrum sprint once and I could see how efficient it was. In this kind of situation you can learn and teach at the same time and everyone brings something."
+            desc: "I value working in a team when everyone has their own tasks, but we have one common goal. This is why I am fond of agile methodologies - I participated in Scrum sprint once and I could see how efficient it was. In this kind of situation everyone brings something."
             },
             { 
             name: "Highly developed communication skills",

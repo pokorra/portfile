@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Title = (props) => {
-    const title = props.title.toUpperCase();
+const Title = ({title, id}) => {
+
     return ( 
-        <h3 className='title' id={props.id}>
-            {title}
-        </h3>
+        <h3 className='title' id={id}> {title.toUpperCase()} </h3>    
     )
 }
 

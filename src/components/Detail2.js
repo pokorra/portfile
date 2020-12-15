@@ -6,19 +6,19 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons';
 
-const Detail2 = (props) => {
+const Detail2 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
     const roll =() => {
-        props.setVisible(false);
-        props.setBtn(false);
+        setVisible(false);
+        setBtn(false);
         }
-    const i = props.detailContent;
+    const i = detailContent;
     const skill = skills[i];
     const skillList = skill.list;
 
     return (
-        <div className={`detail ${props.isVisible ? 'unroll' : ''}`}>
-            <RollButton btn={props.btn} roll={roll}/>
-            <div className={skill.class}> 
+        <div className={`detail ${isVisible ? 'unroll' : ''}`}>
+            <RollButton btn={btn} roll={roll}/>
+            <div className={`detail2 ${skill.class}`}> 
                 <h3>{skill.title}</h3>
                 {skill.class==='technologies' ? (
                      <ul className='tech-list'> {skillList.map( item => (
@@ -66,7 +66,7 @@ const Detail2 = (props) => {
                                     </Slide>
                             </Slider>
 
-                        <DotGroup className='doters'
+                        <DotGroup className='dots'
                             disableActiveDots={false}>
                             <Dot slide={0} className='little-dot'> ☉ </Dot>
                             <Dot slide={1} className='little-dot'> ☉</Dot>

@@ -3,14 +3,12 @@ import {Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowUp} from '@fortawesome/free-solid-svg-icons';
 
-const RollButton = (props)=> {
+const RollButton = ({btn, roll})=> {
     const element = <FontAwesomeIcon icon = {faArrowUp} />
-    const roll = props.roll;
+
     return (
         <Link onClick={roll} to='hello' duration={100}
-             className={`arrow ${props.btn ? '' : 'hidden'}`}
-             
-        > 
+             className={`arrow ${btn ? '' : 'hidden'}`}>
             <div >{element} hide</div> 
         </Link>
         

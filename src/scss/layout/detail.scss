@@ -4,17 +4,17 @@
     margin-bottom: 15px;
     border-radius: 0 0 20px 20px;
     background-color: whitesmoke;
-    transition: .5s;
+    transition: 1.5s;
     color: black;
 }
 
 .unroll {
     margin-top: 0px;
+    animation: unroll 3s reverse;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // border: 2px solid blue;
 }
 
 .arrow {
@@ -33,3 +33,15 @@
     cursor: pointer;
 }
 
+@keyframes unroll {
+    0% {
+        height: 0;
+    }
+    100% { height: 100%;}
+}
+
+@keyframes roll {
+    100% {
+        height: 0;
+    }
+}

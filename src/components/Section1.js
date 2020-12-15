@@ -15,9 +15,11 @@ const Section1 = () => {
             <Title title='1) a few things about me' id='title1'/>
             <Content1 
                 isVisible={isVisible} setVisible={setVisible}
-                detailContent={detailContent} setDetailContent={setDetailContent}
+                setDetailContent={setDetailContent}
                  />
-            <Detail1 isVisible={isVisible} setVisible={setVisible} btn={btn} setBtn={setBtn} detailContent={detailContent}/>
+            <Detail1 isVisible={isVisible} setVisible={setVisible} 
+                btn={btn} setBtn={setBtn} 
+                detailContent={detailContent}/>
         </div>
     )
 };

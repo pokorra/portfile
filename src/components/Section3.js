@@ -7,16 +7,18 @@ const Section3 = () => {
     const [isVisible, setVisible] = useState(false);
     const [btn, setBtn] = useState(false);
     const [detailContent, setDetailContent] = useState(0);
-    // const [text, setText] = useState('');
 
     return (
         <div className='section' id='sec3'>
             <Title title="3) projects i made" id='title3'/>
             <Content3
                 isVisible={isVisible} setVisible={setVisible}
-                detailContent={detailContent} setDetailContent={setDetailContent}
+                setDetailContent={setDetailContent}
               />
-            <Detail3 isVisible={isVisible} setVisible={setVisible} btn={btn} setBtn={setBtn}  detailContent={detailContent}/>
+            <Detail3 
+                isVisible={isVisible} setVisible={setVisible} 
+                btn={btn} setBtn={setBtn}  
+                detailContent={detailContent}/>
         </div>
     )
 };

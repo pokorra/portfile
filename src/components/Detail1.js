@@ -1,22 +1,20 @@
 import React from 'react';
 import RollButton from './RollButton';
 import aboutPP from './data/section1data';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {faChevronLeft} from '@fortawesome/free-solid-svg-icons';
 
-const Detail1 = (props) => {
+
+const Detail1 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
    
-    // const text = fewThings;
     const roll =() => {
-        props.setVisible(false);
-        props.setBtn(false);
+        setVisible(false);
+        setBtn(false);
     }
-   const i = props.detailContent;
+   const i = detailContent;
    const data = aboutPP[i];
 
     return (
-        <div className={`detail ${props.isVisible ? 'unroll' : ''}`}>
-            <RollButton btn={props.btn} roll={roll}/>
+        <div className={`detail ${isVisible ? 'unroll' : ''}`}>
+            <RollButton btn={btn} roll={roll}/>
             <div className='detail1'> 
                 {data.name === 'about' ? (
                     <div className='about-pp'> 
@@ -27,8 +25,7 @@ const Detail1 = (props) => {
                             <p>{data.content} </p>
                             <p>{data.about} </p>
                             </div>
-                    </div>
-                   
+                    </div>                  
                 ) : (
                     <div className='works'>
                         <h3 className='works-intro'>{data.content} </h3>
@@ -49,8 +46,6 @@ const Detail1 = (props) => {
                          </div>
                     </div>
                 )}
-                {/* <div>{data.name}</div> */}
-                {/* {text[props.detailContent-1]} */}
             </div>
         </div>
     )
