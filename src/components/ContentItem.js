@@ -1,11 +1,7 @@
 import React from 'react';
 import {Link } from 'react-scroll';
 
-const ContentItem = (props) => {
-    const setVisible = props.setVisible;
-    const isVisible = props.isVisible;
-    const number = props.number;
-    const setDetailContent = props.setDetailContent;
+const ContentItem = ({text, color, width, font, setVisible, isVisible, setDetailContent, number, id}) => {
 
     const unRoll = () => {
         
@@ -13,14 +9,15 @@ const ContentItem = (props) => {
             setVisible(true);
         }
         setDetailContent(number);
-        // <Link to={props.id} smooth={true} duration={200}></Link>
     }
+
+   
     
     return (
-       <Link to={props.id} smooth={true} duration={200}
+       <Link to={id} smooth={true} duration={200}
             className='content-item'
-            style={{width: props.width, backgroundColor: props.color, color: props.font}}>
-            <div className='content-inner-div' onClick={unRoll}> {props.text}            
+            style={{width: width, backgroundColor: color, color: font}}>
+            <div className='content-inner-div' onClick={unRoll} > {text}            
             </div>
         </Link>  
     )

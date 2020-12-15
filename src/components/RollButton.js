@@ -10,8 +10,7 @@ const RollButton = ({btn, roll})=> {
         <Link onClick={roll} to='hello' duration={100}
              className={`arrow ${btn ? '' : 'hidden'}`}>
             <div >{element} hide</div> 
-        </Link>
-        
+        </Link>   
     )
 }
 

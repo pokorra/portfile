@@ -12,10 +12,15 @@ const Detail1 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
    const i = detailContent;
    const data = aboutPP[i];
 
+
+   const insideDetail = () => {
+    console.log('koniec');
+}
+
     return (
-        <div className={`detail ${isVisible ? 'unroll' : ''}`}>
+        <div className={`detail ${isVisible ? 'unroll' : ''}`} onTransitionEnd={insideDetail} >
             <RollButton btn={btn} roll={roll}/>
-            <div className='detail1'> 
+            <div className={`${isVisible ? 'detail-full' : 'detail-emp'}`}> 
                 {data.name === 'about' ? (
                     <div className='about-pp'> 
                         <div className='photo-me'>
