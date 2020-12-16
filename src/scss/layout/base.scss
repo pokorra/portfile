@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    transition: .5s;
 }
 
 body {
@@ -27,6 +28,7 @@ button {
     font: inherit;
     line-height: normal;
     display: inherit;
+    cursor: pointer;
 }
 
 .section {

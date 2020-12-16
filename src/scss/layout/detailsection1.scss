@@ -53,12 +53,11 @@
 .works-intro {
     font-size: 18px;
 }
-//ul:
+
 .works-list {
     list-style: none;
 }
 
-//li:
 .works-item {
     display: flex;
     border-bottom: 2px solid black;
@@ -103,6 +102,17 @@
         background-image: url(../pics/github.jpg);
         background-size: cover;
         border-radius: 50%;
+        transition: .2s;
+        &:hover {
+            box-shadow:  0 0 5px lightgray, 
+            0 0 7px lightgray, 
+            0 0 10px lightpink, 
+            0 0 13px #e60073, 
+            0 0 15px #e60073, 
+            0 0 17px #e60073, 
+            0 0 20px lightpink;
+        }
+        
     }
     p {
         color: $whitesmoke;

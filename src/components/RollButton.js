@@ -7,9 +7,9 @@ const RollButton = ({btn, roll})=> {
     const element = <FontAwesomeIcon icon = {faArrowUp} />
 
     return (
-        <Link onClick={roll} to='hello' duration={100}
+        <Link onClick={roll} to='hello' duration={100} smooth={true}
              className={`arrow ${btn ? '' : 'hidden'}`}>
-            <div >{element} hide</div> 
+            <button >{element} hide</button> 
         </Link>   
     )
 }

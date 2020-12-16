@@ -19,6 +19,7 @@
 }
 .detail-full {
     visibility: visible;
+    transition: 1s;
     animation: showme 1s alternate-reverse;
 }
 

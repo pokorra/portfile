@@ -45,6 +45,12 @@
         flex-direction: column;
         img {
             width: 90%;
+            transition: .3s;
+            &:hover {
+                width: 90% ;
+                position: static;
+                cursor: auto;
+            }
         }
         .description {
             width: 90%;
@@ -130,7 +136,6 @@
         .techno-item {
             font-size: 18px;
         }
-        // font-weight: bold;
     }
    //section 4
    .wrap {

@@ -4,10 +4,9 @@ import {Link } from 'react-scroll';
 const ContentItem = ({text, color, width, font, setVisible, isVisible, setDetailContent, number, id}) => {
 
     const unRoll = () => {
-        
         if (!isVisible) {
             setVisible(true);
-        }
+        } 
         setDetailContent(number);
     }
 

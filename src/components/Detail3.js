@@ -14,7 +14,7 @@ const Detail3 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
     return (
         <div className={`detail ${isVisible ? 'unroll' : ''}`}>
             <RollButton btn={btn} roll={roll} /> 
-            <div className='detail3 detail-emp'>
+            <div className={`detail3 ${isVisible ? 'detail-full' : 'detail-emp'}`}>
                 <img src={data.photo} alt={data.name} ></img>
                 <div className='description'>
                     <h3>{data.name}</h3>

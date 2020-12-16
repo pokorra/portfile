@@ -19,7 +19,7 @@ const Detail2 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
     return (
         <div className={`detail ${isVisible ? 'unroll' : ''}`}>
             <RollButton btn={btn} roll={roll}/>
-            <div className={`detail-emp ${skill.class}`}> 
+            <div className={`${isVisible ? 'detail-full' : 'detail-emp'} ${skill.class}`}> 
                 <h3>{skill.title}</h3>
                 {skill.class==='technologies' ? (
                      <ul className='tech-list'> {skillList.map( item => (
