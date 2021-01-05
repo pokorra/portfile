@@ -14,6 +14,7 @@ const zombiePhoto = zombie;
 const mazurscyPhoto = mazurscy;
 
 
+
 const projects = [
     // {
     //     name: "Book Promo Quiz",
