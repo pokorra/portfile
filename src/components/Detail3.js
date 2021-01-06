@@ -15,7 +15,9 @@ const Detail3 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
         <div className={`detail ${isVisible ? 'unroll' : ''}`}>
             <RollButton btn={btn} roll={roll} /> 
             <div className={`detail3 ${isVisible ? 'detail-full' : 'detail-emp'}`}>
+                <div className='img-container'>
                 <img src={data.photo} alt={data.name} ></img>
+                </div>
                 <div className='description'>
                     <h3>{data.name}</h3>
                     <div>{data.desc}</div>
@@ -24,8 +26,8 @@ const Detail3 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
                                 <li className='techno-item' key={item}> {item} </li>    
                         ))}
                     </ul>
-                    <p>You can see it <a href={data.view} target="_blank" rel="noopener noreferrer" className='link'> here</a>, 
-                    or you can view the code <a href={data.code} target="_blank" rel="noopener noreferrer" className='link'>there</a>. </p>
+                    <p>You can see it <a href={data.view} target='_blank' rel='noopener noreferrer' className='link'> here</a>, 
+                    or you can view the code <a href={data.code} target='_blank' rel='noopener noreferrer' className='link'>there</a>. </p>
                 </div>   
             </div>
         </div>

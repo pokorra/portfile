@@ -15,7 +15,7 @@
 }
 
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 800px) {
     .content-item {
         font-size: 30px;
     }
@@ -43,13 +43,14 @@
      //section 3 details:
      .detail3 {
         flex-direction: column;
-        img {
-            width: 90%;
-            transition: .3s;
-            &:hover {
-                width: 90% ;
-                position: static;
-                cursor: auto;
+
+        .img-container {
+            width: 85%;
+            height: 100%;
+            img {
+                &:hover {
+                    transform: scale(1.3);                position: static;
+                }
             }
         }
         .description {
@@ -110,7 +111,6 @@
             font-size: 15px;
         }
     }
-    
     .slider-prov {
         width: 70vw;
         h3{

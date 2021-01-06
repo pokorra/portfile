@@ -6,27 +6,27 @@ const Content3 = ({isVisible, setVisible, setDetailContent}) => {
     return (
         <div className="content">
             <ContentItem 
-                text="question game reactJS" color="#38b6ff" width="64%" font="white"
+                text="animal collective" color="#38b6ff" width="57%" font="white"
                 setVisible={setVisible} isVisible={isVisible}
                 setDetailContent={setDetailContent} number="0" id={id}
                 />
             <ContentItem 
-                text="start helping" color="#ffde59" width="35%" font="black"
+                text="book promo quiz" color="#ffde59" width="42%" font="black"
                 setVisible={setVisible} isVisible={isVisible}
                 setDetailContent={setDetailContent} number="1" id={id}
                 />
             <ContentItem 
-                text="tasks to do" color="#545454" width="42%" font="white"
+                text="question game" color="#545454" width="42%" font="white"
                 setVisible={setVisible} isVisible={isVisible}
                 setDetailContent={setDetailContent} number="2" id={id}
                 />
             <ContentItem 
-                text="best shop" color="#ccccce" width="26%" font="black"
+                text="start helping" color="#ccccce" width="26%" font="black"
                 setVisible={setVisible} isVisible={isVisible}
                 setDetailContent={setDetailContent} number="3" id={id}
                 />
             <ContentItem 
-                text="zombie game" color="#ff5757" width="30%" font="white"
+                text="best shop" color="#ff5757" width="30%" font="white"
                 setVisible={setVisible} isVisible={isVisible}
                 setDetailContent={setDetailContent} number="4" id={id}
                 />
