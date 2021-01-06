@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8adc61777cc22e15f50b20cba6120c2",
+    "revision": "7fd6d9bbfd385272ccc8baf9aae66419",
     "url": "/portfile/index.html"
   },
   {
-    "revision": "4a4407f23294ab941b7d",
+    "revision": "e53a2b6fe36828124365",
     "url": "/portfile/static/css/2.1a0a2c47.chunk.css"
   },
   {
-    "revision": "b835863ac3505654aee5",
-    "url": "/portfile/static/css/main.6e840f60.chunk.css"
+    "revision": "08c7baebc89075b738b3",
+    "url": "/portfile/static/css/main.10cb9256.chunk.css"
   },
   {
-    "revision": "4a4407f23294ab941b7d",
-    "url": "/portfile/static/js/2.5a459251.chunk.js"
+    "revision": "e53a2b6fe36828124365",
+    "url": "/portfile/static/js/2.8a10be13.chunk.js"
   },
   {
     "revision": "bfd04eb851fbc8ea43c375cc9d698376",
-    "url": "/portfile/static/js/2.5a459251.chunk.js.LICENSE.txt"
+    "url": "/portfile/static/js/2.8a10be13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b835863ac3505654aee5",
-    "url": "/portfile/static/js/main.db3f9a5a.chunk.js"
+    "revision": "08c7baebc89075b738b3",
+    "url": "/portfile/static/js/main.6a8063d5.chunk.js"
   },
   {
     "revision": "43ee8f4d9df88c1b6579",
     "url": "/portfile/static/js/runtime-main.d0b42762.js"
   },
   {
+    "revision": "247fcf4886c68c9133c35403a07c3f34",
+    "url": "/portfile/static/media/acollective.247fcf48.png"
+  },
+  {
     "revision": "60159cbeb137a02a5e9768ebc43d8f05",
     "url": "/portfile/static/media/bestShop.60159cbe.png"
+  },
+  {
+    "revision": "289eac5dd20e7fafaacb0ec2ad2bc0ad",
+    "url": "/portfile/static/media/mazurscy.289eac5d.png"
   },
   {
     "revision": "6e2081580b3dbb3a697bfef0f2a22bd2",
@@ -46,13 +54,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ca8aefb2107045f084cdfea899b1b58",
     "url": "/portfile/static/media/startHelping.8ca8aefb.png"
-  },
-  {
-    "revision": "e8cb986918dcbf4d32cbc3d80bd4010a",
-    "url": "/portfile/static/media/tasks.e8cb9869.png"
-  },
-  {
-    "revision": "241dc1ebab2183b6f879fc3aad8bd352",
-    "url": "/portfile/static/media/zombie.241dc1eb.png"
   }
 ]);
