@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfile/static/css/main.10cb9256.chunk.css",
-    "main.js": "/portfile/static/js/main.6a8063d5.chunk.js",
-    "main.js.map": "/portfile/static/js/main.6a8063d5.chunk.js.map",
+    "main.css": "/portfile/static/css/main.a0db3f50.chunk.css",
+    "main.js": "/portfile/static/js/main.4bf6e52a.chunk.js",
+    "main.js.map": "/portfile/static/js/main.4bf6e52a.chunk.js.map",
     "runtime-main.js": "/portfile/static/js/runtime-main.d0b42762.js",
     "runtime-main.js.map": "/portfile/static/js/runtime-main.d0b42762.js.map",
     "static/css/2.1a0a2c47.chunk.css": "/portfile/static/css/2.1a0a2c47.chunk.css",
     "static/js/2.8a10be13.chunk.js": "/portfile/static/js/2.8a10be13.chunk.js",
     "static/js/2.8a10be13.chunk.js.map": "/portfile/static/js/2.8a10be13.chunk.js.map",
     "index.html": "/portfile/index.html",
-    "precache-manifest.d3adb041044d0529bd3e77b884d04c24.js": "/portfile/precache-manifest.d3adb041044d0529bd3e77b884d04c24.js",
+    "precache-manifest.0f4eae3c39501f6483a378a9454f7646.js": "/portfile/precache-manifest.0f4eae3c39501f6483a378a9454f7646.js",
     "service-worker.js": "/portfile/service-worker.js",
     "static/css/2.1a0a2c47.chunk.css.map": "/portfile/static/css/2.1a0a2c47.chunk.css.map",
-    "static/css/main.10cb9256.chunk.css.map": "/portfile/static/css/main.10cb9256.chunk.css.map",
+    "static/css/main.a0db3f50.chunk.css.map": "/portfile/static/css/main.a0db3f50.chunk.css.map",
     "static/js/2.8a10be13.chunk.js.LICENSE.txt": "/portfile/static/js/2.8a10be13.chunk.js.LICENSE.txt",
     "static/media/acollective.png": "/portfile/static/media/acollective.247fcf48.png",
     "static/media/bestShop.png": "/portfile/static/media/bestShop.60159cbe.png",
     "static/media/mazurscy.png": "/portfile/static/media/mazurscy.289eac5d.png",
-    "static/media/main.scss": "/portfile/static/media/pflm.322f613c.jpg",
+    "static/media/main.scss": "/portfile/static/media/reading_grl.8c2753d3.svg",
     "static/media/quiz.png": "/portfile/static/media/quiz.d7d8e2d7.png",
     "static/media/startHelping.png": "/portfile/static/media/startHelping.8ca8aefb.png"
   },
@@ -25,7 +25,7 @@
     "static/js/runtime-main.d0b42762.js",
     "static/css/2.1a0a2c47.chunk.css",
     "static/js/2.8a10be13.chunk.js",
-    "static/css/main.10cb9256.chunk.css",
-    "static/js/main.6a8063d5.chunk.js"
+    "static/css/main.a0db3f50.chunk.css",
+    "static/js/main.4bf6e52a.chunk.js"
   ]
 }
