@@ -16,7 +16,9 @@ const Detail3 = ({isVisible, setVisible, btn, setBtn, detailContent}) => {
             <RollButton btn={btn} roll={roll} /> 
             <div className={`detail3 ${isVisible ? 'detail-full' : 'detail-emp'}`}>
                 <div className='img-container'>
-                <img src={data.photo} alt={data.name} ></img>
+                    <a href={data.view} target='_blank'>
+                        <img src={data.photo} alt={data.name} ></img>
+                    </a>
                 </div>
                 <div className='description'>
                     <h3>{data.name}</h3>
